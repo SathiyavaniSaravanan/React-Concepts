@@ -1,5 +1,7 @@
 import './App.css';
-import Effect from './Components/Effect';
+import Todo from './Components/Hooks-useReducer/Hook-useReducer-example2';
+// import Effect from './Components/Effect';
+// import Counter from './Components/Hooks-useReducer/Hook-useReducer-example1';
 // import UserExample from './Components/UserExample';
 // import Lists from './Components/lists';
 // import Hooks from './Components/Hooks';
@@ -12,7 +14,9 @@ function App() {
       {/* <Hooks/> */}
       {/* <Lists/> */}
       {/* <UserExample/> */}
-      <Effect/>
+      {/* <Effect/> */}
+      {/* <Counter/>  */}  
+      <Todo/>
     </div>
   );
 }
